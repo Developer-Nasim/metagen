@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./assets/components/header"
+import MetagenMetawear from "./assets/components/metagen"
+import KidsHang from "./assets/components/hangs"
+import RoadMap from "./assets/components/roadmap"
+import Metatech from "./assets/components/metatech"
+import Genitors from "./assets/components/genitors"
+import FaqItem from "./assets/components/faq"
+import Footer from "./assets/components/footer"
+import BigImg from "../src/assets/img/hero.png"
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+      <MetagenMetawear />
+      <KidsHang />
+      <RoadMap />
+      <Metatech />
+      <Genitors />
+      <FaqItem />
+      <Footer />
+    </>
   );
 }
 

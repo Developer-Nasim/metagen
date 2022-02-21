@@ -1,0 +1,37 @@
+.centeredTitle {text-align: center;margin-bottom: 50px;}
+.leftModeTitle > img {
+    position: absolute;
+    left: 15px;
+    top: 0px;
+    z-index: -1;
+    width: 35px;
+}
+.centeredTitle p {font-weight: 100;letter-spacing: 2px;}
+
+.centeredTitle h4 {
+    font-size: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.leftModeTitle {
+    position: relative;
+    padding-left: 44px !important;
+}
+
+.leftModeTitle h4 {
+    font-weight: 900;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.leftModeTitle  p {
+    letter-spacing: 1px;
+}
+
+.leftModeTitle > img {
+    position: absolute;
+    left: 15px;
+    top: -10px;
+    z-index: -1;
+}

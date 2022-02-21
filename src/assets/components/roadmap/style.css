@@ -1,0 +1,70 @@
+.roadmap {
+    padding: 150px 0;
+    background: #F3F3F3;
+}
+
+.roadmap img.roadMapTxt {
+    display: block;
+    margin-bottom: 100px;
+}
+
+.roadmap-wrp {
+    display: block;
+    max-width: 90%;
+}
+
+.roadmap-blk {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.roadmap-blk-left-wrp {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    margin-right: 40px;
+}
+
+.roadmap-blk-left-wrp img {
+    width: 40px !important;
+    margin-right: 15px;
+    display: block;
+}
+
+.roadmap-blk-left-wrp h4 {
+    margin: 0;
+    font-weight: 900;
+    width: 100px;
+}
+
+.roadmap-blk-left-wrp h4 small {
+    display: block;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-weight: 600;
+}
+
+.roadmap-blk-left-wrp:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 3px;
+    background: black;
+    right: -25px;
+    top: 10px;
+}
+
+.roadmap-blk-right-wrp p {
+    margin: 0;
+    font-weight: 100;
+}
+
+.roadmap-wrp > p.endNotes {
+    margin: 0;
+    margin-top: 70px;
+    margin-left: 155px;
+    font-weight: 100;
+}

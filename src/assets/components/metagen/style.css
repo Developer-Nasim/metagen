@@ -1,0 +1,23 @@
+.metagen_metawear {
+    background: #FAFAFA;
+    padding-top: 100px;
+}
+ .metagen{
+     overflow: hidden;
+ }
+.metawear {
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.metawear .centeredTitle {
+    padding-bottom: 20px;
+}
+.metagen > img {
+    max-width: 130% !important;
+    display: block;
+    width: 130%;
+    left: -15%;
+    position: relative;
+}
+

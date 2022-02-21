@@ -1,0 +1,111 @@
+.kidsHang {
+    position: relative;
+    z-index: 2;
+}
+
+.kidsHang > .backg {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.univerSection  img.react-parallax-bgimage {
+    display: none;
+}
+.kidsHang-top {position: relative;}
+
+.kidsHang-top img.MetaTopShpage {
+    position: absolute;
+    right: 4%;
+    max-height: 100px;
+    top: -65px;
+}
+
+.kidsHang-top .leftModeTitle {
+    margin: 200px 0;
+}
+
+.middle_section {
+    display: block;
+    position: relative;
+    width: 100%; 
+}
+
+.middle_section .videoBackg {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 800px; 
+}
+
+.middle_section button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: no-repeat;
+    border: none;
+    outline: none;
+    transition: .3s;
+}
+
+.middle_section button:hover {
+    opacity: .5;
+}
+
+.testmacker {
+    display: block;
+    width: 100%;
+}
+
+.testmacker img {
+    height: 100%;
+}
+
+.kidsHang-bottom {
+    position: relative;
+    padding: 300px 0;
+}
+
+.kidsHang-bottom > .backg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: -1;
+    max-height: 70%;
+}
+
+
+
+.videoPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background: #000000c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.videoPopup > div {
+    position: relative;
+}
+
+.videoPopup > div button {
+    position: absolute;
+    top: -45px;
+    right: 0;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+}
