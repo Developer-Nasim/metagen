@@ -24,6 +24,13 @@
         padding: 100px 0;
     }
 
+    .metawear img.full-width {
+        max-width: 85%; 
+    }
+    .middle_section .videoBackg { 
+        height: 500px;
+        top: 80px;
+    }
 }
 
  
@@ -31,6 +38,9 @@
 @media (max-width: 767px) {
     body{
         font-size: 14px;
+    }
+    .container-fluid {
+        padding: 0 30px;
     }
     .header-logo {
         max-width: 195px;
@@ -62,12 +72,16 @@
         font-size: 28px;
     }
     .genitor-blk {
-        width: 100%;
+        width: 48%;
         margin-top: 45px;
     }
     .middle_section .videoBackg img{
         object-fit: cover;
         object-position: 70%;
+        top: 80px;
+    }
+    .middle_section .videoBackg { 
+        height: 500px;
     }
     .kidsHang-top .leftModeTitle {
         margin: 101px 0;
@@ -138,7 +152,17 @@
     .footer-wrp h3 small {
         font-size: 11px;
     }
- 
+    .metawear img.full-width {
+        max-width: 90%; 
+    }
+    .roadmap-blk-right-wrp {
+        padding-left: 35px;
+    }
+    .roadmap-blk-left-wrp img { 
+        margin-right: 10px; 
+    }
+
+
 }
  
 /* Large Mobile screen :480px. */

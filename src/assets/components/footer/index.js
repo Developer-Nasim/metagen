@@ -121,7 +121,7 @@ export default function Footer() {
                                     </svg>
                                 </a></li>
                             </ul>
-                            <p><b>METAGEN LTD — 2022 <br /> Made with love between Paris & London. </b></p>
+                            <p>METAGEN LTD — 2022 <br /> Made with love between Paris & London.</p>
                             <img src={FLogos} className="flogo" alt="" />
                         </div>
                     </div>

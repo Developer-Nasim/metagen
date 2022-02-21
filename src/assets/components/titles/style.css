@@ -2,18 +2,17 @@
 .leftModeTitle > img {
     position: absolute;
     left: 15px;
-    top: 0px;
+    top: -10px; 
     z-index: -1;
-    width: 35px;
+    width: 40px;
 }
 .centeredTitle p {font-weight: 100;letter-spacing: 2px;}
 
-.centeredTitle h4 {
-    font-size: 24px;
+.centeredTitle h4 { 
     letter-spacing: 2px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
-
 .leftModeTitle {
     position: relative;
     padding-left: 44px !important;
@@ -28,10 +27,15 @@
 .leftModeTitle  p {
     letter-spacing: 1px;
 }
-
-.leftModeTitle > img {
-    position: absolute;
-    left: 15px;
-    top: -10px;
-    z-index: -1;
+ 
+.centeredTitle img {
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+    max-height: 40px;
 }
+
+
+
+
+

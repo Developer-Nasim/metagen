@@ -16,11 +16,11 @@
 .footer-wrp > p {
     margin-bottom: 30px;
     margin-top: 25px;
-    font-size: 14px;
+    font-size: 12px;
 }
 .footer-wrp h3 small {
     display: block;
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 100;
 }
 .footer-wrp ul.social {
@@ -48,7 +48,14 @@
     height: 40px;
 }
 
-
+.footer-wrp > img.f-img {
+    max-width: 75px;
+    display: block;
+    margin: auto;
+}
+.footer-wrp img.flogo {
+    max-width: 90%;
+}
 
 
 

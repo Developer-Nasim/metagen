@@ -6,13 +6,41 @@
 .roadmap img.roadMapTxt {
     display: block;
     margin-bottom: 100px;
+    max-height: 40px;
 }
 
 .roadmap-wrp {
     display: block;
+    position: relative;
     max-width: 90%;
+    z-index: 2;
+}
+.middle_section .videoBackg img.react-parallax-bgimage {
+    height: 100% !important;
+    object-fit: cover;
+    top: 40px;
+    width: 100% !important;
 }
 
+.roadmap-blk-right-wrp h4 {
+    font-size: 18px;
+}
+
+.roadmap-blk-right-wrp p {
+    font-size: 13px;
+}
+
+.roadmap-wrp:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 12px;
+    height: 80%;
+    width: 1px;
+    border: 1px dotted #dbdbdb;
+    background: #bbbbbb;
+    z-index: -1;
+}
 .roadmap-blk {
     display: flex;
     align-items: flex-start;
@@ -28,9 +56,10 @@
 }
 
 .roadmap-blk-left-wrp img {
-    width: 40px !important;
+    width: 25px !important;
     margin-right: 15px;
     display: block;
+    background: #F3F3F3;
 }
 
 .roadmap-blk-left-wrp h4 {

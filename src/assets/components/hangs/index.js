@@ -3,8 +3,7 @@ import "./style.css"
 import CamouflageBg from "../../img/camouflage_bg.png"
 import VideoImg from "../../img/videos.png"
 import MorePople from "../../img/more-people.png"
-import MetaPod from "../../img/txts/f2.png"
-import MetaMores from "../../img/txts/f1.png"
+import MetaPod from "../../img/txts/f2.png" 
 import MetaDors from "../../img/txts/f3.png"
 import UniverBackg from "../../img/universe.png"
 import TheVideo from "../../img/METAPOD_SHORT.mp4"
@@ -20,8 +19,7 @@ export default function KidsHang() {
         <div className="kidsHang"> 
             <Parallax className="backg"  bgImage={CamouflageBg} strength={800}>  </Parallax>
             {/* <img src={CamouflageBg} className="backg" alt="" /> */}
-            <div className="kidsHang-top">
-                <img src={MetaMores} className="MetaTopShpage" alt="" />
+            <div className="kidsHang-top"> 
                 <div className="container">
                     <div className="row"> 
                         <div className="col-lg-8">
@@ -35,19 +33,24 @@ export default function KidsHang() {
                     </div>
                 </div>
                 <div className="middle_section">
-                    <Parallax className="videoBackg"  bgImage={VideoImg} strength={400}>  </Parallax>
-                    {/* <img src={VideoImg} className="videoBackg" alt="" /> */}
-                    <button type="button" onClick={() => setShowPopup(vlu => !vlu)}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
-                        <g id="Group_1" data-name="Group 1" transform="translate(-918 -5773)">
-                            <g id="Rectangle" transform="translate(918 5773)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2">
-                            <rect width="70" height="70" rx="4" stroke="none"/>
-                            <rect x="1" y="1" width="68" height="68" rx="3" fill="none"/>
+                    { showPopup ? 
+                        <video src={TheVideo} width="auto" height="300" controls="controls" autoPlay={true} />
+                    : 
+                    <> 
+                        <Parallax className="videoBackg"  bgImage={VideoImg} strength={400}>  </Parallax> 
+                        <button type="button" onClick={() => setShowPopup(vlu => !vlu)}>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+                            <g id="Group_1" data-name="Group 1" transform="translate(-918 -5773)">
+                                <g id="Rectangle" transform="translate(918 5773)" fill="none" stroke="#fff" strokeMiterlimit="10" strokeWidth="2">
+                                <rect width="70" height="70" rx="4" stroke="none"/>
+                                <rect x="1" y="1" width="68" height="68" rx="3" fill="none"/>
+                                </g>
+                                <path id="Triangle" d="M9,0l9,14H0Z" transform="translate(960 5799) rotate(90)" fill="#fff"/>
                             </g>
-                            <path id="Triangle" d="M9,0l9,14H0Z" transform="translate(960 5799) rotate(90)" fill="#fff"/>
-                        </g>
-                        </svg>
-                    </button>
+                            </svg>
+                        </button>
+                    </> 
+                    }
                 </div>
                 <div className="container">
                     <div className="row">  
@@ -87,16 +90,8 @@ export default function KidsHang() {
                         </div>
                     </div>
                 </div>
-            </Parallax>
-
-            { showPopup ? 
-            <div className="videoPopup">
-                <div>
-                    <button type="button" onClick={() => setShowPopup(vlu => !vlu)}>X</button> 
-                    <video src={TheVideo} width="auto" height="300" controls="controls" autoPlay={true} />
-                </div>
-            </div>
-            : ""}
+            </Parallax> 
+       
         </div>
     )
 }

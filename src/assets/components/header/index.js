@@ -1,6 +1,7 @@
 import React from "react"
 import "./style.css" 
-import BigImg from "../../img/hero.png"
+// import BigImg from "../../img/hero.png"
+import BigImg from "../../img/nft.jpg"
 import Logo from "../../img/logo.png"
 import Discord  from "../../img/ic1.png"
 import Instagram  from "../../img/ic2.png"

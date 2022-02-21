@@ -1,12 +1,17 @@
-import React from "react"
+import React,{useRef} from "react"
 import "./style.css" 
 import MetGen from "../../img/squad.png"
 import Goods from "../../img/goods.png"
 import MetagenTxt from "../../img/txts/f9.png"
 import MetawearTxt from "../../img/txts/f10.png"
 import TheTitle from "../titles"
+import MetaMores from "../../img/txts/f1.png"
+import { Parallax } from 'react-parallax';
 
 export default function MetagenMetawear() {
+
+    const TheMainDiv = useRef()
+
     return(
         <div className="metagen_metawear">
             <div className="metagen"> 
@@ -21,7 +26,18 @@ export default function MetagenMetawear() {
                         </div>
                     </div>
                 </div>
-                <img src={MetGen} alt="" />
+                <Parallax
+                    className="metagenSquads"
+                    bgImage={MetawearTxt}
+                    strength={200}
+                    renderLayer={(percentage) => ( 
+                        <>
+                        <img style={{position:"relative",width:"100%",height:"500px",marginTop:"-100px",top:(percentage *50)+"px"}} src={MetGen}  alt="" />
+              
+                        </>
+                    )}
+                >  
+                </Parallax> 
             </div>
             <div className="metawear"> 
                 <div className="container">
@@ -36,6 +52,7 @@ export default function MetagenMetawear() {
                         </div>
                     </div>
                     
+                    <img src={MetaMores} className="MetaTopShpage" alt="" />
                     <img src={Goods} className="full-width" alt="" />
                 </div>
             </div>
