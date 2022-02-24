@@ -12,7 +12,11 @@
     height: 100%;
     pointer-events: none;
 }
-
+.genitors > .backg img.react-parallax-bgimage {
+    height: 100% !important;
+    width: 100% !important;
+    object-fit: cover;
+}
 .genitors-wrp {
     display: flex;
     flex-wrap: wrap;
@@ -36,13 +40,13 @@
     text-transform: uppercase;
     line-height: 18px;
     margin-bottom: 20px;
+    font-weight: 900;
 }
-
 .genitor-blk h4 span {
     display: block;
-    color: #FDFD0F;
+    color: #0000002b;
+    margin-bottom: -2px;
 }
-
 .genitor-blk p {
     margin: 0;
     font-size: 13px;

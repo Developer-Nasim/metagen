@@ -32,7 +32,12 @@
     width: 100%;
     height: 800px; 
 }
-
+.middle_section video {
+    display: block;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
 .middle_section button {
     position: absolute;
     top: 50%;
@@ -51,16 +56,15 @@
     opacity: .5;
 }
 .middle_section .videoBackg img.react-parallax-bgimage {
-    height: 100% !important;
+    height: 150% !important;
     object-fit: cover;
     top: 0;
     top: 40px;
     width: 100% !important;
 }
-.middle_section video {
-    display: block;
-    width: 100%;
-    height: auto;
+.kidsHang > .backg > img.react-parallax-bgimage {
+    height: 100% !important;
+    object-fit: cover;
 }
 .testmacker {
     display: block;
@@ -127,4 +131,28 @@
     border-radius: 50%;
     background: red;
     color: #fff;
+}
+
+
+
+
+
+
+
+@media only screen and (min-width:768px) and (max-width:991px) { 
+    .middle_section .videoBackg { 
+        height: 480px; 
+    }
+    .middle_section video { 
+        height: 480px; 
+    }
+} 
+
+@media only screen and (max-width:767px) { 
+    .middle_section .videoBackg { 
+        height:280px; 
+    }
+    .middle_section video { 
+        height: 280px; 
+    }
 }

@@ -3,6 +3,7 @@ import "./style.css"
 import CamouflageBg from "../../img/camouflage_bg.png"
 import VideoImg from "../../img/videos.png"
 import MorePople from "../../img/more-people.png"
+import MorePopleMobile from "../../img/more-people-mobile.png"
 import MetaPod from "../../img/txts/f2.png" 
 import MetaDors from "../../img/txts/f3.png"
 import UniverBackg from "../../img/universe.png"
@@ -65,7 +66,8 @@ export default function KidsHang() {
                     </div>
                 </div>
                 <div className="testmacker">
-                    <img src={MorePople} alt="" />
+                    <img src={MorePople} className="d-none d-md-block" alt="" />
+                    <img src={MorePopleMobile} className="d-block d-md-none" alt="" />
                 </div>
             </div>
             <Parallax

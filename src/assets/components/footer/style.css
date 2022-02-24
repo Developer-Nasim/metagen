@@ -56,7 +56,9 @@
 .footer-wrp img.flogo {
     max-width: 90%;
 }
-
+.footer-wrp ul.social li a img {
+    width: 60px;
+}
 
 
 

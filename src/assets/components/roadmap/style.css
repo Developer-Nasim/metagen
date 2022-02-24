@@ -23,11 +23,11 @@
 }
 
 .roadmap-blk-right-wrp h4 {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .roadmap-blk-right-wrp p {
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .roadmap-wrp:before {
@@ -37,7 +37,7 @@
     left: 12px;
     height: 80%;
     width: 1px;
-    border: 1px dotted #dbdbdb;
+    border: 1px dashed #dbdbdb;
     background: #bbbbbb;
     z-index: -1;
 }

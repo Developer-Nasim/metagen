@@ -40,13 +40,16 @@
         font-size: 14px;
     }
     .container-fluid {
-        padding: 0 30px;
+        padding: 0 15px;
     }
     .header-logo {
-        max-width: 195px;
+        max-width: 160px;
     }
     .react-parallax.header_img > img {
-        height: 100vh !IMPORTANT;
+        height: 100% !IMPORTANT;
+    }
+    .react-parallax.metagenSquads img {
+        height: 280px !important;  
     }
     .centeredTitle img {
         max-width: 240px;
@@ -79,10 +82,7 @@
         object-fit: cover;
         object-position: 70%;
         top: 80px;
-    }
-    .middle_section .videoBackg { 
-        height: 500px;
-    }
+    } 
     .kidsHang-top .leftModeTitle {
         margin: 101px 0;
     }

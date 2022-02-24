@@ -23,8 +23,8 @@ export default function Header() {
                                 </div>
                                 <div className="header-social">
                                     <a href="#"><img src={Discord} alt="" /></a>
-                                    <a href="#"><img src={Instagram} alt="" /></a>
                                     <a href="#"><img src={Twiiter} alt="" /></a> 
+                                    <a href="#"><img src={Instagram} alt="" /></a>
                                 </div>
                             </div>
                         </div>

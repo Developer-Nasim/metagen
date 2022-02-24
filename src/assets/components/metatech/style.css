@@ -7,9 +7,10 @@
 .metatech-wrp img.metaTech {
     display: block;
     margin-bottom: 50px;
+    max-height: 40px;
 }
 
-.metatech-wrp  h3 {
+.metatech-wrp h3 {
     font-size: 40px;
     font-weight: 900;
     color: #fff;
@@ -49,7 +50,7 @@
     display: block;
     margin: auto;
     width: 40px;
-    height: 3px;
+    height: 1px;
     background: white;
     margin-bottom: 20px;
 }

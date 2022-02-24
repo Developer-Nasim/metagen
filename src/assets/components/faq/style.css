@@ -6,6 +6,7 @@
 .faq img.faqTxt {
     display: block;
     margin-bottom: 70px;
+    max-width: 40px;
 }
 
 .accordion-item {
@@ -30,21 +31,32 @@
     font-size: 13px;
 }
 .accordion-button::after {
-    content: "-";
+    content: "";
     position: absolute;
     top: 50%;
     right: 0;
-    background: none !important;
+    background-image: url(../../img/icon_minus.png);
     font-size: 20px;
     color: black;
     display: block;
-    transform: translateY(-50%);
+    transform: translateY(-50%) !important;
     transition: .3s;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-position: center;
 }
 
 .accordion-button.collapsed::after {
-    content: "+";
+    background-image: url(../../img/icon_plus.png);
 }
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../../img/icon_minus.png);
+}
+
+
+
+
 div#accordionExample .accordion-item:nth-child(2){
     border-top: 1px solid #00000026;
     border-bottom: 1px solid #00000026;

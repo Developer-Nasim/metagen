@@ -1,6 +1,7 @@
 import React,{useRef} from "react"
 import "./style.css" 
-import MetGen from "../../img/squad.png"
+import MetGen from "../../img/squad2.png"
+import Separator from "../../img/triangle-separator.png"
 import Goods from "../../img/goods.png"
 import MetagenTxt from "../../img/txts/f9.png"
 import MetawearTxt from "../../img/txts/f10.png"
@@ -33,11 +34,11 @@ export default function MetagenMetawear() {
                     renderLayer={(percentage) => ( 
                         <>
                         <img style={{position:"relative",width:"100%",height:"500px",marginTop:"-100px",top:(percentage *50)+"px"}} src={MetGen}  alt="" />
-              
                         </>
                     )}
-                >  
+                >   
                 </Parallax> 
+                <img src={Separator} className="separator" alt="" />
             </div>
             <div className="metawear"> 
                 <div className="container">

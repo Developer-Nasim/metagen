@@ -1,11 +1,4 @@
 .centeredTitle {text-align: center;margin-bottom: 50px;}
-.leftModeTitle > img {
-    position: absolute;
-    left: 15px;
-    top: -10px; 
-    z-index: -1;
-    width: 40px;
-}
 .centeredTitle p {font-weight: 100;letter-spacing: 2px;}
 
 .centeredTitle h4 { 
@@ -16,11 +9,19 @@
 .leftModeTitle {
     position: relative;
     padding-left: 44px !important;
+    margin-left: 100px;
+}
+.leftModeTitle > img {
+    position: absolute;
+    left: 15px;
+    top: -10px; 
+    z-index: -1;
+    width: 40px;
 }
 
 .leftModeTitle h4 {
     font-weight: 900;
-    font-size: 40px;
+    font-size: 34px;
     margin-bottom: 20px;
 }
 
@@ -34,6 +35,20 @@
     margin-bottom: 20px;
     max-height: 40px;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .leftModeTitle { 
+        margin-left: 70px;
+    }
+}
+@media only screen and (max-width:767px) {
+    .leftModeTitle { 
+        margin-left: 30px;
+    }
+}
+
+
+
 
 
 

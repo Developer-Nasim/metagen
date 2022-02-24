@@ -1,11 +1,21 @@
 .metagen_metawear {
-    background: #FAFAFA;
+    background: #1B1B1B;
     padding-top: 100px;
     position: relative;
+    color: #fff;
+}
+.metagen_metawear h1,
+.metagen_metawear h2,
+.metagen_metawear h3,
+.metagen_metawear h4,
+.metagen_metawear h5,
+.metagen_metawear h6{
+    color: #fff;
 }
  .metagen{
      overflow: hidden;
- }
+    position: relative;    
+}
 .metawear {
     padding-top: 50px;
     padding-bottom: 150px;
@@ -34,3 +44,13 @@
     display: block;
     margin: auto;
 }
+.metagen > img.separator {
+    margin-top: -50px;
+}
+
+
+
+
+
+
+
